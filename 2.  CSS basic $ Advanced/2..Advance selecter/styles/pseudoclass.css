@@ -1,0 +1,16 @@
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+a.hover{
+    color: chartreuse;
+}
+a.active{
+    color: aqua;
+}
+input{
+    margin:10px;
+}
+input:focus{
+    background-color: chartreuse;
+}

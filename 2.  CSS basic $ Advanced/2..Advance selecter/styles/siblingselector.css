@@ -1,0 +1,7 @@
+h1 + p{
+    color: bisque;
+    background-color: blueviolet;
+}
+h1 ~ p{
+    text-decoration: uppercase;
+}

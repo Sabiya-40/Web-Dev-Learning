@@ -1,0 +1,19 @@
+.top_heading{
+    color: darkred;
+}
+#heading {
+    color: brown;
+    /*comments in css looks loke this*/
+}
+#new_div{/*id selectorr*/
+    color: blue;
+}
+p{/*element selector*/
+color: blueviolet;
+}
+.small_heading{/*class selector*/
+    color: blueviolet;
+}
+#first,#second{
+    color: chartreuse;
+}

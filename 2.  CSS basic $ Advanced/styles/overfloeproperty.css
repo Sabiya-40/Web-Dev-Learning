@@ -1,0 +1,22 @@
+.container{
+    width:250px;
+    height:150px;
+    padding:5px;
+    margin:10px;
+    border-radius: 5px;
+    background-color: rgb(17, 185, 190);
+    border:2px solid black
+ 
+}
+.visible{
+overflow: visible;
+}
+.hidden{
+overflow: hidden;
+}
+.scroll{
+overflow: scroll;
+}
+.auto{
+overflow:auto;
+}

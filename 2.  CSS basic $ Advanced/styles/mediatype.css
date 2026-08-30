@@ -1,0 +1,15 @@
+.screen{
+    display: block;
+    background-color: bisque;
+}
+    .print{
+        display: none;
+    }
+@media print{
+    .screen{
+    display: none;
+    }
+    .print{
+        display: block;
+    }
+}

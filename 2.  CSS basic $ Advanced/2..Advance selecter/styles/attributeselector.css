@@ -1,0 +1,7 @@
+
+[placeholder]{
+    background-color: aquamarine;
+}
+[placeholder="username"]{
+    margin: 10px;
+}

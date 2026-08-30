@@ -1,0 +1,49 @@
+.box{
+    background-color: aquamarine;
+    height: 30px;
+    width:100px;
+    margin: 5px;
+    padding:5px;
+    border-radius: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid pink;
+    box-sizing: border-box;
+    position: absolute;
+    animation-name: mern;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:5 ;
+    animation-direction: alternate;
+}
+@keyframes mern{
+   /* from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+
+
+
+    from{
+        left: 0;
+    }
+    to{
+        left:240px;
+    }*/
+    0%{
+        left:0;
+        top:0px;
+    }
+    50%{
+        top:50px;
+    }
+    100%{
+   left:260px; 
+    }
+
+}
+

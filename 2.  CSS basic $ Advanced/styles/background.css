@@ -1,0 +1,24 @@
+/*#div_t{
+    color: antiquewhite;
+     background-color: blue ;
+}
+#p_t{
+    color: blanchedalmon;
+     background-color: blue;
+}
+#h_t{
+    color: aqua;
+    background-color: blue;
+}*/
+*#div_t{
+    color: antiquewhite;
+     background-color: rgb(100,111 ,111)
+}
+#p_t{
+    color: blanchedalmon;
+     background-color:rgb(100,111 ,111)
+}
+#h_t{
+    color: aqua;
+    background-color:#ffe500;
+}

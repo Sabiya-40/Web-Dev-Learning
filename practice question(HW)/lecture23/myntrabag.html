@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Myntra bag</title>
+     <style>
+      
+       #add_bg{
+       background-color: rgb(115, 186, 115);
+        padding: 3px 15px;
+        border-radius: 15px;
+        border:3px solid white;
+       
+       }
+       #wishlist{ 
+        background-color: white;
+        text-transform: uppercase;
+        padding: 5px 45px;
+        border-radius: 13px;
+        border:3px solid black;
+       }
+        #sale_item{
+       background-color: rgb(115, 186, 115);
+        padding: 3px 15px;
+        border-radius: 15px;
+        border:3px solid white;
+        }
+    </style>
+</head>
+<body>
+<main>
+     <button id="add_bg" onclick=
+       " itemsInBag=itemsInBag+1; 
+       document.querySelector('#bag_summery').innerHTML='Your Bag Has'+' '+ itemsInBag + ' '+ 'Items ';">Add to Bag </button>
+
+ <button id="wishlist" onclick=
+       " itemsInBag=itemsInBag-1; 
+       document.querySelector('#bag_summery').innerHTML='Your Bag Has'+' '+ itemsInBag + ' '+ 'Items ';">❤️Wishlist</button>
+
+ <button id="sale_item" onclick=
+       " itemsInBag=itemsInBag+2; 
+       document.querySelector('#bag_summery').innerHTML='Your Bag Has'+' '+ itemsInBag + ' '+ 'Items ';">Add 1+1 items</button>
+
+ <h1 id="bag_summery"></h1>
+</main>
+     
+ <script>
+    let itemsInBag=0;
+    document.querySelector("#bag_summery").innerHTML='Your Bag Has 0 Items ';
+ </script>
+ </body>  
+      
+</html>

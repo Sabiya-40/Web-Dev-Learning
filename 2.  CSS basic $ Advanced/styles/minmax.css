@@ -1,0 +1,12 @@
+.box{
+    background-color: cyan;
+    min-height: 188px;
+    max-height: 388px;
+    min-width:200px;
+    max-width:588px;
+    overflow: auto;
+    padding: 20px;
+    margin:20px;
+
+
+}

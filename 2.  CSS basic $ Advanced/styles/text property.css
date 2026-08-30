@@ -1,0 +1,17 @@
+.my-text{
+    text-align: right;
+    text-decoration: underline;
+    text-decoration: double;
+    text-decoration-color: rgb(180, 63, 118);
+}
+.your-text{
+   line-height: 50px; 
+   font-size: medium;
+   font-weight: 700;
+   font-style: italic;
+
+}
+
+#kg-link{
+    text-decoration: none;
+}

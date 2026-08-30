@@ -1,0 +1,25 @@
+.box{
+    background-color: aquamarine;
+    height: 30px;
+    width:100px;
+    margin: 45px;
+    padding:5px;
+    border-radius: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid pink;
+    box-sizing: border-box;
+    /*transition:all 2s;*/
+
+}
+.box:hover{
+    background-color: #8d6b82;
+   /* transform:rotatey(75deg);
+    transform:scale(2);
+    transform: translate(100px);*/
+    transform: skew(60deg);
+
+
+
+}

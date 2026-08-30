@@ -1,0 +1,15 @@
+.box{
+    height: 80px;
+    width: 80px;
+    font-family: 25px;
+    background-color: blue;
+    visibility: hidden;
+
+}
+#big_image{
+ height: 300px;
+ width:300px ;
+ background-image:  url(../image/image.png) ;
+ background-repeat: no-repeat;
+
+}

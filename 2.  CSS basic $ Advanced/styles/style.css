@@ -1,0 +1,11 @@
+h1{
+            font-size: 50px;/*in CSS comments look like this*/
+            color: brown;
+            /*cooment line in css*/
+        }
+        h2{
+            color: yellowgreen
+        }
+        p{
+            color: greenyellow
+        }

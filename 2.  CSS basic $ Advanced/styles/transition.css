@@ -1,0 +1,22 @@
+.box{
+    background-color: aquamarine;
+    height: 30px;
+    width:100px;
+    margin: 5px;
+    padding:5px;
+    border-radius: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid pink;
+    box-sizing: border-box;
+   transition: background-color;
+    transition-duration: 3s;
+    transition-delay: 3s;
+  /*ransition-timing-function: ease-in;*/
+  /*transition-property: all 3s ease-out 3s;*/
+}
+.box:hover{
+    background-color: #db1699;
+    width:200px;
+}

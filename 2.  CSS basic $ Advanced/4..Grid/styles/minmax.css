@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: brown;
+    display: grid;
+    gap: 2px;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: 1fr minmax(50px,1fr) 1fr;
+    grid-auto-rows: 50px;
+    grid-auto-columns: 50px;
+
+
+}
+.cell{
+    background-color: rgb(207, 161, 184);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid rgb(245, 115, 136);
+    border-radius: 2px;
+}
+.item1{
+    grid-area:2/2/4/4 ;/*ye sbse shortcut h*/
+}

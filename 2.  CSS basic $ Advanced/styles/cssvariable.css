@@ -1,0 +1,29 @@
+html{/*standard convension*/
+    --main-bg-color:#dd9393;/*two hyphen is compulsory baki kuch bhi likh skte h*/
+    --main-text-color:#bfb5e2;
+    --main-box-color:#529b97;
+    --main-border-color:#080b55;
+
+
+}
+.container{
+    background-color: var(--main-bg-color,orange);/*fallback value*/
+    display: flex;
+    padding:10px;
+    border:2px solid var( --main-border-color);
+    color:var(--main-text-color);
+
+}
+.box{
+    width: 50px;
+    height: 50px;
+     border:2px solid var( --main-border-color);
+     margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--main-text-color);
+    background-color: var(--main-box-color);
+
+
+}

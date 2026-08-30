@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.my-box{
+    background-color: rgb(148, 223, 118);
+    height: 15px;
+    width: 12px;
+    padding: 25px;
+    padding-left: 20px;
+    margin: 5px 6px;
+    border: 10px solid darkblue;
+    border-radius: 10px;
+}

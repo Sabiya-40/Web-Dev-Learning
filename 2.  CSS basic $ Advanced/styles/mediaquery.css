@@ -1,0 +1,35 @@
+.box{
+    background-color: rgb(192, 136, 95);
+    height:100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+@media( width:10px){
+    .box {
+         border: 10px solid black;
+    }
+}
+@media( min-width:500px){
+    .box {
+         height:150px;
+         width: 120px;
+          border: 10px solid black;
+    }
+}
+@media( max-width:400px){
+    .box {
+         height:80px;
+         width: 70px;
+         border: 10px solid  rgb(206, 200, 212);
+    }
+}
+@media( max-width:400px) and (min-width:600px){
+    .box {
+         height:80px;
+         width: 70px;
+         border: 10px solid  rgb(109, 24, 42);
+    }
+}

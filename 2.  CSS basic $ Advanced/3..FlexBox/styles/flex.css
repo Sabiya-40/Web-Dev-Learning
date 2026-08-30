@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+ padding: 0;
+
+}
+.container{
+ background-color: rgb(49, 211, 170);
+ border: 2px solid black;
+ margin: 2px;
+ display: flex;
+ flex-direction: row; 
+ /*align-items: center;
+ height: 500px;
+ justify-content:space-evenly ;
+ flex-wrap: wrap;
+ align-content: space-evenly;*/
+ 
+ 
+}
+.box{
+height: 25px;
+width: 25px;
+background-color: blueviolet;
+margin: 10px;
+padding: 20px;
+box-sizing: border-box;
+border: 5px solid palevioletred;
+border-radius: 3px;
+}
+
+#box4{
+ align-self: end;
+ order:2;
+}
+#box2{
+    flex-shrink:0;/*isko chhod k sb shrink krega*/
+    order: 1;
+}
+#box1{
+    flex: shrink 4; 
+    flex-grow:inherit ;/*jb space hoga grow krega*/
+    order: 6;
+}
+#box6{
+    background-color: rgb(158, 17, 94);
+    flex-grow: 1;
+    order: 5;
+}
+#box3{
+    background-color: chartreuse;
+    order: 4;
+}
+#box1{
+    order :3;
+}
+#box7{
+    order: 7;
+}
