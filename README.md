@@ -7,7 +7,7 @@ This repository contains my web development learning journey and practice work.
 - HTML
 - CSS
 - JavaScript
-- Bootstrap
+- React
 - Responsive Web Design
 - Frontend Development
 
